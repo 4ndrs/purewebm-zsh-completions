@@ -1,0 +1,3 @@
+#compdef purewebm
+
+_arguments '--status[print the current status]' '--kill[kill all encodings immediately]' '-i[input files]:filename:_files' '--input[input files]:filename:_files' '--subtitles[burn the subtitles]' '-subs[burn the subtitles]' '-ss[start time]' '--start_time[start time]' '-to[stop time]' '--stop_time[stop time]' '-lavfi[ffmpeg filters]' '-sl[size limit]' '--size_limit[size limit]' '-crf[constant rate factor]' '-ep[extra params for ffmpeg]' '--extra_params[extra params for ffmpeg]'
